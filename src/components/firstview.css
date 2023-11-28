@@ -1,0 +1,21 @@
+.firstview {
+    background-color: #0019f8;
+    color:whitesmoke;
+    height: 300px;
+    display: flex;
+    flex-direction:column;
+    padding: 10px 20px;
+    align-items: center; /* Alinhamento vertical ao centro */
+    border: 3px solid #ccc; /* Adicione uma borda para visualização */
+    margin: 0 auto; /* Adiciona margens automáticas para centralizar */
+  }
+
+.button {
+  display: flex;
+  width: 20%;
+  justify-content: center; /* Alinhamento horizontal ao centro */
+  align-items: center; /* Alinhamento vertical ao centro */
+  justify-content: space-around;
+  display: flex;
+  width: 20%;
+  }

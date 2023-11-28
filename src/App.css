@@ -20,16 +20,9 @@ body {
   margin-right: 20px;
 }
 
-.essential {
-  background-color: #0019f8;
-  color:whitesmoke;
-  height: 300px;
-  display: flex;
-  justify-content: center; /* Alinhamento horizontal ao centro */
-  align-items: center; /* Alinhamento vertical ao centro */
-  border: 1px solid #ccc; /* Adicione uma borda para visualização */
-  margin: 0 auto; /* Adiciona margens automáticas para centralizar */
-  max-width: 1200px; /* Define uma largura máxima para o conteúdo, ajuste conforme necessário */
+span {
+  color: whitesmoke;
+  font-size: 10mm;
 }
 
 .additional {
@@ -64,14 +57,6 @@ body {
   border: 1px solid #ccc; /* Adicione uma borda para visualização */
 }
 /* Estilos para o botão */
-button {
-  background-color: #7c0101; /* Cor de fundo do botão */
-  color: white; /* Cor do texto do botão */
-  padding: 10px 20px; /* Espaçamento interno do botão */
-  font-size: 16px; /* Tamanho da fonte do botão */
-  border: none; /* Remove a borda padrão do botão */
-  cursor: pointer; /* Adiciona um cursor indicando que o botão é clicável */
-}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

@@ -1,5 +1,8 @@
 import React from 'react';
 import './App.css';
+import { Navbar } from './components/menubar';
+import { Menubar } from './components/menubar';
+import { FirstView } from './components/firstview';
 
 function App() {
   const handleBotao1 = () => {
@@ -19,15 +22,8 @@ function App() {
 
   return (
     <div className="App">
-      <div className='Menubar'>
-        <img className='Imagem' src="logo.png" alt="Logo"></img>
-        <button onClick={handleBotao1}>1º Botão</button>
-        <button onClick={handleBotao2}>2º Botão</button>
-        <button onClick={handleBotao3}>3º Botão</button>
-      </div>
-      <div className='essential'>
-        <p>ESPAÇO RESERVADO PARA COLOCAR O VÍDEO DE APRESENTAÇÃO E OS DADOS PRINCIPAIS</p>
-      </div>
+      <Navbar/>
+      <FirstView/>
       <div className='additional'>
         <p>ESPAÇO RESERVADO PARA COLOCAR ALGUNS DADOS ADICIONAIS E AVALIAÇÕES DE USUÁRIOS</p>
       </div>
