@@ -1,0 +1,55 @@
+/* additional.css */
+
+.additional{
+  color: rgb(0, 0, 0);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  font-size: 20px;
+  text-align: left;
+  font-weight: 400;
+  flex-direction: flex;
+  margin-top: 300px;
+  line-height: 1.5;
+  text-align: center; /* Adicione esta linha para centralizar os elementos dentro da div */
+  justify-content: space-evenly;
+  align-items: center; /* Alinhamento vertical ao centro */
+  }
+
+  .text {
+    background-color: whitesmoke;
+    max-width: 40%;
+    justify-content: center;
+    align-items: center;
+  }
+
+.additional h4 {
+  /* Estilos para o título h4 na seção additional */
+  font-family: Arial, sans-serif;
+  font-size: 40px;
+  line-height: 1.5;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Cria duas colunas com largura igual */
+  gap: 10px; /* Espaçamento entre as imagens */
+}
+
+.images {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  display: block;
+  margin: 0; /* Remove margens padrão */
+}
+
+.additional button {
+  background-color: #7c0101;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  margin-left: 30px;
+}

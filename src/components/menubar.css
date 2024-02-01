@@ -1,23 +1,24 @@
 .Menubar {
   background-color: #5a5a5a;
   color: white;
-  padding: 20px;
+  padding: 15px;
   display: flex;
-  justify-content: space-around;
   align-items: center;
+  border-collapse: collapse;
+  justify-content:space-between;
 }
 
-button {
-  background-color: #7c0101; /* Cor de fundo do botão */
-  color: white; /* Cor do texto do botão */
-  padding: 10px 20px; /* Espaçamento interno do botão */
-  font-size: 16px; /* Tamanho da fonte do botão */
-  border: none; /* Remove a borda padrão do botão */
-  cursor: pointer; /* Adiciona um cursor indicando que o botão é clicável */
+.Menubar button {
+  background-color: #7c0101;
+  color: white;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  margin-left: 1px;
+  cursor: pointer;
   display: flex;
-  justify-content: center; /* Alinhamento horizontal ao centro */
+  justify-content: center;
   align-items: center; /* Alinhamento vertical ao centro */
-  justify-content: space-around;
 }
 
 .Usuario {
@@ -37,4 +38,10 @@ button {
   justify-content: center;
   align-items: center;
   margin-right: 10px;
+}
+
+.Imagem {
+  max-width: 150px;
+  height: auto;
+  margin-right: 20px;
 }

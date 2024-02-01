@@ -1,21 +1,58 @@
 .firstview {
-    background-color: #0019f8;
-    color:whitesmoke;
-    height: 300px;
-    display: flex;
-    flex-direction:column;
-    padding: 10px 20px;
-    align-items: center; /* Alinhamento vertical ao centro */
-    border: 3px solid #ccc; /* Adicione uma borda para visualização */
-    margin: 0 auto; /* Adiciona margens automáticas para centralizar */
-  }
+  font: inherit;
+  font-size: 35px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+  vertical-align: baseline;
+  text-align: center;
+  align-items: center;
+}
 
-.button {
+.firstview span {
+  /* Estilos para o título */
+  height: 400px;
+  color: black;
+  font: inherit;
+  max-width: 80%;
+  margin-bottom: auto; /* Ajuste a margem conforme necessário */
+}
+
+.firstview p {
+  /* Estilos para os parágrafos */
+  font-size: 30px;
+  line-height: 1.5;
+  max-width: 80%;
+  color: #000000;
+  /* Cor do texto */
+  margin-bottom: 1.5px;
+  /* Adicione a margem desejada abaixo de cada parágrafo */
+}
+
+.buttondownload {
   display: flex;
-  width: 20%;
-  justify-content: center; /* Alinhamento horizontal ao centro */
-  align-items: center; /* Alinhamento vertical ao centro */
+  height: 170px;
+  max-width: 70%;
+  gap: 100px;
+  /* Adicione um espaçamento entre os botões conforme necessário */
+  justify-content: center;
+  align-items: center;
+}
+
+.buttondownload p {
+  color: rgb(255, 255, 255);
+  font: inherit;
+  font-weight: bold;
+}
+
+.buttondownload button {
+  background-color: #ffffff;
+  width: 100px;
+  /* Ajuste a largura dos botões conforme necessário */
+  height: 170px;
+  /* Ajuste a altura dos botões conforme necessário */
+  display: flex;
+  align-items: center;
   justify-content: space-around;
-  display: flex;
-  width: 20%;
-  }
+}

@@ -1,0 +1,30 @@
+/* comments.css */
+
+.comments {
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    line-height: 1.5;
+    display:block;
+    flex-direction: flex;
+    align-items: center; /* Alinhamento vertical ao centro */
+    justify-content:center;
+    max-width: 800px; /* Ajuste conforme necessário */
+    margin-left: auto; /* Para centralizar a div */
+    margin-right: auto; /* Para centralizar a div */
+}
+
+.comments h5 {
+    color: #7c0101;
+    font-size: 30px;
+    margin-top: 150px;
+    margin-left: 150px; /* Ajuste conforme necessário */
+    display: flex;
+}
+
+.comments .comments-list {
+    max-width: 80%;
+    display: flex;
+    margin-left: 100px;
+    align-items: center; /* Alinhamento vertical ao centro */
+    justify-content: space-around;
+}

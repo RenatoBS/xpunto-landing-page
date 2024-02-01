@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.68885420.css",
+    "main.js": "/static/js/main.ac85e33c.js",
+    "static/js/787.e5df584c.chunk.js": "/static/js/787.e5df584c.chunk.js",
+    "static/media/interação.gif": "/static/media/interação.5e35527047607d77a95a.gif",
+    "static/media/liberdade.gif": "/static/media/liberdade.937571e15d318b22d226.gif",
+    "static/media/tempo.gif": "/static/media/tempo.5b099a1ce0efe073f987.gif",
+    "static/media/desejos.gif": "/static/media/desejos.05e3266eb6d34a05823a.gif",
+    "static/media/AndroidLogo.png": "/static/media/AndroidLogo.d43e5a101f620bbbe3a9.png",
+    "index.html": "/index.html",
+    "main.68885420.css.map": "/static/css/main.68885420.css.map",
+    "main.ac85e33c.js.map": "/static/js/main.ac85e33c.js.map",
+    "787.e5df584c.chunk.js.map": "/static/js/787.e5df584c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.68885420.css",
+    "static/js/main.ac85e33c.js"
+  ]
+}

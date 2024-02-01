@@ -3,6 +3,11 @@ import './App.css';
 import { Navbar } from './components/menubar';
 import { Menubar } from './components/menubar';
 import { FirstView } from './components/firstview';
+import { Additional } from './components/additional';
+import { Comments } from './components/comments';
+import YoutubeEmbed  from './components/Videoapresentacao';
+import CadastroForm from './components/CadastroForm';
+import Footer from './components/Footer';
 
 function App() {
   const handleBotao1 = () => {
@@ -24,15 +29,11 @@ function App() {
     <div className="App">
       <Navbar/>
       <FirstView/>
-      <div className='additional'>
-        <p>ESPAÇO RESERVADO PARA COLOCAR ALGUNS DADOS ADICIONAIS E AVALIAÇÕES DE USUÁRIOS</p>
-      </div>
-      <div className='explanation'>
-        <p>ESPAÇO RESERVADO PARA COLOCAR UM TUTORIAL E BREVE EXPLICAÇÃO SOBRE COMO FUNCIONA O APP</p>
-      </div>
-      <div className='director'>
-        <p>ESPAÇO RESERVADO PARA COLOCAR OS LINKS DE DIRECIONAMENTO DAS REDES SOCIAIS</p>
-      </div>
+      <Additional/>
+      <Comments/>
+      <YoutubeEmbed/>
+      <CadastroForm/>
+      <Footer/>
     </div>
   );
 }

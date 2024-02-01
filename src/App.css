@@ -1,14 +1,11 @@
 body {
   margin: 0;
-}
-
-.App {
-  text-align: center;
+  background-color: #65a99b;
 }
 
 .Menubar {
   background-color: #5a5a5a;
-  color: white;
+  color: rgb(255, 255, 255);
   padding: 20px;
   display: flex;
   justify-content: space-around;
@@ -21,40 +18,32 @@ body {
 }
 
 span {
-  color: whitesmoke;
-  font-size: 10mm;
-}
-
-.additional {
-  background-color: #2439f8;
-  color:whitesmoke;
-  height: 300px;
-  display: flex;
-  justify-content: center; /* Alinhamento horizontal ao centro */
-  align-items: center; /* Alinhamento vertical ao centro */
-  border: 1px solid #ccc; /* Adicione uma borda para visualização */
+  color: rgb(255, 255, 255);
+  margin-bottom: 10px; /* ou o valor desejado */
 }
 
 .explanation {
-  background-color: #4154fd;
+  background-color: #65a99b;
   color:whitesmoke;
   height: 300px;
   display: flex;
   justify-content: center; /* Alinhamento horizontal ao centro */
   align-items: center; /* Alinhamento vertical ao centro */
-  border: 1px solid #ccc; /* Adicione uma borda para visualização */
+  border: 3px solid #000000; /* Adicione uma borda para visualização */
   margin: 0 auto; /* Adiciona margens automáticas para centralizar */
   max-width: 1200px; /* Define uma largura máxima para o conteúdo, ajuste conforme necessário */
 }
 
 .director {
-  background-color: #6674f0;
+  background-color: #65a99b;
   color:whitesmoke;
   height: 300px;
   display: flex;
   justify-content: center; /* Alinhamento horizontal ao centro */
   align-items: center; /* Alinhamento vertical ao centro */
-  border: 1px solid #ccc; /* Adicione uma borda para visualização */
+  border: 3px solid #000000; /* Adicione uma borda para visualização */
+  margin: 0 auto; /* Adiciona margens automáticas para centralizar */
+  max-width: 1200px; /* Define uma largura máxima para o conteúdo, ajuste conforme necessário */
 }
 /* Estilos para o botão */
 
